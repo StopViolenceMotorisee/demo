@@ -61,7 +61,15 @@ export default function Home() {
 
           <p>Nous avons le droit de pouvoir nous déplacer en sécurité, quel que soit notre mode de transport !</p>
           <p>Nos voix et nos rassemblements montrent clairement que <strong>nous ne voulons plus attendre</strong>. Il est urgent d’agir pour protéger chaque personne sur la route et dans les rues.</p>
+
+          <p>
+          Pour partager nos expériences et sortir de la banalisation de la violence motorisée, la FUB lance un <a target="_blank" href="https://www.fub.fr/fub/actualites/stop-aux-violences-moto
+risees-contre-banalisation-partagez-vos-temoignages">appel à témoignages</a>.</p>
+
           <p><strong>Signez et partagez !</strong></p>
+
+          <iframe width="600" height="845" src="https://b6623b61.sibforms.com/serve/MUIFAD50yOvyKbcx_MjJcI3nyzFSpEVM7g0SOZF74KH7_-wrWLIz8Ijjn-7djqfC5jonIeyMN3FNre__1fnPyO5JpfvdxeNjRRt2yT10mU-QnF4ryun6r-pSYMwb5Tb40FFu3WhyVoVFDWlA8Xy08e0xzYSz8DJVrW8bbUpIeKctAJDm9jN8HDhQY_T6XhMU6HmSsll6oxHRoGEn"
+          frameborder="0" scrolling="auto" allowfullscreen style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "max-width": "100%"}}></iframe>
         </main>
       </div>
     </>
