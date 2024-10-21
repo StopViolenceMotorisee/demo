@@ -122,6 +122,11 @@ a.secondary {
   }
 }
 
+.logoBox {
+  display: flex;
+  justify-content: center;
+}
+
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
