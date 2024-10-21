@@ -11,13 +11,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div
+        className={`${styles.page}`}
+      >
+      <main className={styles.main}>
+                <h1>Ce lien sera actif demain.</h1>
+      </main>
+      </div>
+
+      {/*
+
       <div className={styles.logoBox}>
         <Image
           className={styles.logo}
           src="/photo_pauavelo_bandeau.jpg"
           alt="Photo d’une manifestation de soutien à Paul"
           width={2048}
-          height={/*1536*/916}
+          height={916}
           priority
          />
        </div>
@@ -71,7 +81,7 @@ risees-contre-banalisation-partagez-vos-temoignages">appel à témoignages</a>.<
           <iframe width="600" height="845" src="https://b6623b61.sibforms.com/serve/MUIFAD50yOvyKbcx_MjJcI3nyzFSpEVM7g0SOZF74KH7_-wrWLIz8Ijjn-7djqfC5jonIeyMN3FNre__1fnPyO5JpfvdxeNjRRt2yT10mU-QnF4ryun6r-pSYMwb5Tb40FFu3WhyVoVFDWlA8Xy08e0xzYSz8DJVrW8bbUpIeKctAJDm9jN8HDhQY_T6XhMU6HmSsll6oxHRoGEn"
           frameborder="0" scrolling="auto" allowfullscreen style={{"display": "block", "margin-left": "auto", "margin-right": "auto", "max-width": "100%"}}></iframe>
         </main>
-      </div>
+      </div>*/}
     </>
   );
 }
