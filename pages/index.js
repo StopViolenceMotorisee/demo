@@ -168,15 +168,15 @@ export default function Home() {
             <LogoFUB />
           </div>
 
-          <div>
-            <h2 className="is-size-4">Avec le soutien de</h2>
-            <LogoFFV />
-            <LogoFVM />
-            <LogoLHC />
-            <LogoRAC />
-            <LogoWimoov />
-          </div>
+          <h2 className="is-size-4">Avec le soutien de</h2>
         </main>
+        <div>
+          <LogoFFV />
+          <LogoFVM />
+          <LogoLHC />
+          <LogoRAC />
+          <LogoWimoov />
+        </div>
         <AppFooter />
       </div>
     </>

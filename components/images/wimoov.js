@@ -6,7 +6,7 @@ export function LogoWimoov() {
       src="/partenaires/Wimoov.jpg"
       alt="Logo de Wimoov"
       width={591}
-      style={{ width: "300px" }}
+      style={{ width: "200px" }}
       height={591}
       priority
     />

@@ -6,7 +6,7 @@ export function LogoFFV() {
       src="/partenaires/FF Vélo.jpg"
       alt="Logo de FF Vélo"
       width={591}
-      style={{ width: "300px" }}
+      style={{ width: "200px" }}
       height={591}
       priority
     />

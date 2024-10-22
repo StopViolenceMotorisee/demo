@@ -157,15 +157,15 @@ export default function Home() {
             <LogoFUB />
           </div>
 
-          <div>
-            <h2 className="is-size-4">In association with</h2>
-            <LogoFFV />
-            <LogoFVM />
-            <LogoLHC />
-            <LogoRAC />
-            <LogoWimoov />
-          </div>
+          <h2 className="is-size-4">In association with</h2>
         </main>
+        <div>
+          <LogoFFV />
+          <LogoFVM />
+          <LogoLHC />
+          <LogoRAC />
+          <LogoWimoov />
+        </div>
         <AppFooter />
       </div>
     </>
