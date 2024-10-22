@@ -156,7 +156,7 @@ risees-contre-banalisation-partagez-vos-temoignages"
           </div>
 
           <div>
-            <h2 className="is-size-4">Plateforme à l'initiative de la FUB</h2>
+            <h2 className="is-size-4">Plateforme à l’initiative de la FUB</h2>
             <LogoFUB />
           </div>
 
