@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-export function AppForm() {
+export function AppForm(props) {
+  console.log(props);
   const [temoignage, setTemoignage] = useState("");
   const [lieu, setLieu] = useState("");
   const [nom, setNom] = useState("");
@@ -38,7 +39,9 @@ export function AppForm() {
       {!done ? (
         <>
           <div class="field">
-            <label class="label">Témoignage</label>
+            <label class="label">
+              {props.en ? "Experience" : "Témoignage"}*
+            </label>
             <div class="control">
               <textarea
                 class="textarea"
@@ -48,14 +51,18 @@ export function AppForm() {
             </div>
             {error ? (
               <p class="help is-danger">
-                Ce champs ne peut pas être laissé vide.
+                {props.en ? (
+                  <>This field is mandatory</>
+                ) : (
+                  <>Ce champs ne peut pas être laissé vide.</>
+                )}
               </p>
             ) : (
               <></>
             )}
           </div>
           <div class="field">
-            <label class="label">Lieu</label>
+            <label class="label">{props.en ? "Location" : "Lieu"}</label>
             <div class="control">
               <input
                 class="input"
@@ -66,7 +73,7 @@ export function AppForm() {
             </div>
           </div>
           <div class="field">
-            <label class="label">Nom</label>
+            <label class="label">{props.en ? "Name" : "Nom"}</label>
             <div class="control">
               <input
                 class="input"
@@ -77,7 +84,9 @@ export function AppForm() {
             </div>
           </div>
           <div class="field">
-            <label class="label">Adresse email</label>
+            <label class="label">
+              {props.en ? "Email address" : "Adresse email"}
+            </label>
             <div class="control">
               <input
                 class="input"
@@ -87,8 +96,17 @@ export function AppForm() {
               />
             </div>
             <p class="help">
-              Cette adresse email ne sera jamais publiée. Elle nous permettra de
-              vous contacter si nécessaire.
+              {props.en ? (
+                <>
+                  This email address won’t be shared. We may use it to contact
+                  you.
+                </>
+              ) : (
+                <>
+                  Cette adresse email ne sera jamais publiée. Elle nous
+                  permettra de vous contacter si nécessaire.
+                </>
+              )}
             </p>
           </div>
 
@@ -99,7 +117,7 @@ export function AppForm() {
                 disabled={sending}
                 onClick={() => publish()}
               >
-                Envoyer
+                {props.en ? <>Send</> : <>Envoyer</>}
               </button>
             </div>
           </div>

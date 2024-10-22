@@ -1,15 +1,24 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 import { AppHeader } from "@/components/header.js";
+import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
+
+import { LogoFUB } from "@/components/images/fub.js";
+import { LogoFFV } from "@/components/images/ffv.js";
+import { LogoFVM } from "@/components/images/fvm.js";
+import { LogoLHC } from "@/components/images/lhc.js";
+import { LogoRAC } from "@/components/images/rac.js";
+import { LogoWimoov } from "@/components/images/wimoov.js";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Stop aux violences motorisées !</title>
+        <title>Stop road violence!</title>
         <meta name="description" content="Stop aux violences motorisées !" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -17,6 +26,26 @@ export default function Home() {
       <AppHeader />
 
       <div className={`${styles.page}`}>
+        <div className="buttons">
+          <Link
+            className="button is-medium is-warning"
+            href="#signez"
+            scroll={false}
+          >
+            I sign this call
+          </Link>
+          <Link
+            className="button is-medium is-warning"
+            href="#temoignez"
+            scroll={false}
+          >
+            I share my experience
+          </Link>
+          <Link href="/">FR</Link>/
+          <Link href="/english">
+            <strong>EN</strong>
+          </Link>
+        </div>
         <main className={styles.main}>
           <h1 className="is-size-3">
             Stop road violence by signing the petition against its normalisation
@@ -98,7 +127,7 @@ export default function Home() {
           </p>
 
           <p>
-            <strong>Please sign and share!</strong>
+            <strong id="signez">Please sign and share!</strong>
           </p>
 
           <iframe
@@ -115,6 +144,25 @@ export default function Home() {
               "max-width": "100%",
             }}
           ></iframe>
+
+          <div id="temoignez">
+            <h2 className="is-size-4">Sharing your experience</h2>
+            <AppForm en />
+          </div>
+
+          <div>
+            <h2 className="is-size-4">Initiated by FUB</h2>
+            <LogoFUB />
+          </div>
+
+          <div>
+            <h2 className="is-size-4">In association with</h2>
+            <LogoFFV />
+            <LogoFVM />
+            <LogoLHC />
+            <LogoRAC />
+            <LogoWimoov />
+          </div>
         </main>
         <AppFooter />
       </div>
