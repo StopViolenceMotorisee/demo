@@ -13,26 +13,39 @@ export default function MentionsLegales() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppHeader />
-      <div
-        className={`${styles.page}`}
-      >
+      <div className={`${styles.page}`}>
         <main className={styles.main}>
           <h1>Mentions légales</h1>
 
           <h2>Éditeur</h2>
-          <p>FUB – Association – Fédération française des Usagers de la Bicyclette, 12 rue Finkmatt, 67000 Strasbourg</p>
+          <p>
+            FUB – Association – Fédération française des Usagers de la
+            Bicyclette, 12 rue Finkmatt, 67000 Strasbourg
+          </p>
 
           <h2>Responsable publication</h2>
-          <p>Fédération française des Usagers de la Bicyclette – contact@fub.fr</p>
+          <p>
+            Fédération française des Usagers de la Bicyclette – contact@fub.fr
+          </p>
 
           <h2>Conception</h2>
-          <p><a href="codeursenliberte.fr/" target="_blank">Codeureuses en Liberté</a></p>
+          <p>
+            <a href="codeursenliberte.fr/" target="_blank">
+              Codeureuses en Liberté
+            </a>
+          </p>
 
           <h2>Hébergement</h2>
           <p>Github Pages</p>
 
           <h2>Politique de confidentialité</h2>
-          <p>La politique de confidentialité applicable est <a href="https://www.fub.fr/mentions-legales" target="_blank">celle précisée sur le site internet de la FUB</a>.</p>
+          <p>
+            La politique de confidentialité applicable est{" "}
+            <a href="https://www.fub.fr/mentions-legales" target="_blank">
+              celle précisée sur le site internet de la FUB
+            </a>
+            .
+          </p>
         </main>
         <AppFooter />
       </div>
