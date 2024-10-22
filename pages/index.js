@@ -144,9 +144,9 @@ export default function Home() {
             allowFullScreen
             style={{
               display: "block",
-              "margin-left": "auto",
-              "margin-right": "auto",
-              "max-width": "100%",
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "100%",
             }}
           ></iframe>
 
