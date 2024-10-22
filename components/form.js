@@ -7,7 +7,7 @@ export function AppForm() {
   const [nom, setNom] = useState("");
   const [email, setEmail] = useState("");
   const [sending, setSending] = useState(false);
-  const [done, setDone] = useState(true);
+  const [done, setDone] = useState(false);
   const [error, setError] = useState(false);
 
   async function publish() {
