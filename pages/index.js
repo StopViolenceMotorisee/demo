@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 import { AppHeader } from "@/components/header.js";
+import { SIBButton } from "@/components/sibbutton.js";
+import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
 
 export default function Home() {
@@ -17,8 +20,14 @@ export default function Home() {
       <AppHeader />
 
       <div className={`${styles.page}`}>
+        <div className="buttons">
+          <SIBButton />
+          <Link className="button is-large" href="#temoignez" scroll={false}>
+            Je veux témoigner
+          </Link>
+        </div>
         <main className={styles.main}>
-          <h1>
+          <h1 className="is-size-1">
             Stop aux violences motorisées : contre la banalisation, signez la
             pétition
           </h1>
@@ -115,14 +124,18 @@ risees-contre-banalisation-partagez-vos-temoignages"
           </p>
 
           <p>
-            <strong>Signez et partagez !</strong>
+            <strong id="signez">Signez et partagez !</strong>
           </p>
+
+          <div className="buttons">
+            <SIBButton />
+          </div>
 
           <iframe
             width="600"
             height="845"
             src="https://b6623b61.sibforms.com/serve/MUIFAD50yOvyKbcx_MjJcI3nyzFSpEVM7g0SOZF74KH7_-wrWLIz8Ijjn-7djqfC5jonIeyMN3FNre__1fnPyO5JpfvdxeNjRRt2yT10mU-QnF4ryun6r-pSYMwb5Tb40FFu3WhyVoVFDWlA8Xy08e0xzYSz8DJVrW8bbUpIeKctAJDm9jN8HDhQY_T6XhMU6HmSsll6oxHRoGEn"
-            frameborder="0"
+            frameBorder="0"
             scrolling="auto"
             allowFullScreen
             style={{
@@ -132,6 +145,11 @@ risees-contre-banalisation-partagez-vos-temoignages"
               "max-width": "100%",
             }}
           ></iframe>
+
+          <div id="temoignez">
+            <h2 className="is-size-2">Votre témoignage</h2>
+            <AppForm />
+          </div>
         </main>
         <AppFooter />
       </div>
