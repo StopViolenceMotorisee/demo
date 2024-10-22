@@ -183,12 +183,25 @@ export function AppForm(props) {
       ) : (
         <div>
           <div className="notification">
-            Nous avons bien reçu votre témoignage.
+            {props.en ? (
+              <>Thanks for sharing your testimony.</>
+            ) : (
+              <>Nous avons bien reçu votre témoignage.</>
+            )}
           </div>
-          <div className="section field is-grouped">
-            <div className="control">
-              <button className="button" onClick={() => setDone(!done)}>
-                Faire un nouveau témoignage
+          <div>
+            <div className="sib-form-block">
+              <button
+                className="sib-form-block__button sib-form-block__button-with-loader"
+                onClick={() => setDone(!done)}
+                form="sib-form"
+                type="submit"
+              >
+                {props.en ? (
+                  <>Share another testimony</>
+                ) : (
+                  <>Faire un nouveau témoignage</>
+                )}
               </button>
             </div>
           </div>
