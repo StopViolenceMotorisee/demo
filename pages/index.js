@@ -27,11 +27,19 @@ export default function Home() {
 
       <div className={`${styles.page}`}>
         <div className="buttons">
-          <Link className="button is-large" href="#signez" scroll={false}>
-            Je veux signer l’appel
+          <Link
+            className="button is-medium is-warning"
+            href="#signez"
+            scroll={false}
+          >
+            Je signe cet appel à signature
           </Link>
-          <Link className="button is-large" href="#temoignez" scroll={false}>
-            Je veux témoigner
+          <Link
+            className="button is-medium is-warning"
+            href="#temoignez"
+            scroll={false}
+          >
+            Je témoigne
           </Link>
         </div>
         <main className={styles.main}>
@@ -39,15 +47,22 @@ export default function Home() {
             Stop aux violences motorisées : contre la banalisation, signez la
             pétition
           </h1>
+
+          <p>
+            Pétition adressée à Mr le Premier ministre et aux membres de son
+            gouvernement
+          </p>
+
           <p>
             Mardi 15 octobre à 17h45, Paul Varry, 27 ans, a été tué par un
             conducteur de SUV alors qu’il rentrait du travail. Sa mort a ému
-            chacun d’entre nous, en tant que cyclistes, piétons, parents,
-            automobilistes ou citoyennes et citoyens.
+            chacune et chacun d’entre nous, en tant que cyclistes, piétons,
+            parents, automobilistes ou citoyennes et citoyens.
           </p>
           <p>
             Paul est loin d’être la première victime de cette violence : tant
-            que nous resterons silencieux, il ne sera pas la dernière.
+            que nous resterons silencieuses et silencieux, il ne sera pas la
+            dernière.
           </p>
           <p>
             Dépassements dangereux, insultes, queues de poisson, intimidations,
@@ -57,8 +72,8 @@ export default function Home() {
           </p>
           <p>
             Vous avez été des dizaines de milliers à vous rassembler dans toute
-            la France pour dire  stop aux violences motorisées » à la suite de
-            ce drame.
+            la France pour dire stop aux violences motorisées » à la suite de ce
+            drame.
           </p>
           <p>
             Aujourd’hui, il est urgent que la société ouvre les yeux. Unissons
@@ -125,7 +140,7 @@ export default function Home() {
           <iframe
             width="600"
             height="845"
-            src="https://b6623b61.sibforms.com/serve/MUIFAD50yOvyKbcx_MjJcI3nyzFSpEVM7g0SOZF74KH7_-wrWLIz8Ijjn-7djqfC5jonIeyMN3FNre__1fnPyO5JpfvdxeNjRRt2yT10mU-QnF4ryun6r-pSYMwb5Tb40FFu3WhyVoVFDWlA8Xy08e0xzYSz8DJVrW8bbUpIeKctAJDm9jN8HDhQY_T6XhMU6HmSsll6oxHRoGEn"
+            src="https://b6623b61.sibforms.com/serve/MUIFAJmosgpsL9TSD93TAAk8YLho3R6_eJlQOqzLKVd7U85a_YKasCJN6BaMz07W_TZ1gD9M8JorL8P_0HMjIEsXHwL5Rm-5u2BzV2w0t3keQqsEYQyX41a4vids3DXwAGV-Q4PlGu_GGuZu5i31SySfbPKMFYsiamtNm3mZ3GAzht4MgRxHZTcEQYKV-6268JsX95mvNKQD8Lri"
             frameBorder="0"
             scrolling="auto"
             allowFullScreen

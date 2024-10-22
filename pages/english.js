@@ -18,9 +18,10 @@ export default function Home() {
 
       <div className={`${styles.page}`}>
         <main className={styles.main}>
-          <h1>
+          <h1 className="is-size-3">
             Stop road violence by signing the petition against its normalisation
           </h1>
+          <p>Petition adressed to the Prime Minister and his government</p>
           <p>
             On the 15th of October at 5:45 p.m. Paul Varry, 27 years old, was
             killed by an SUV driver on his commute home from work in central
@@ -103,7 +104,7 @@ export default function Home() {
           <iframe
             width="600"
             height="845"
-            src="https://b6623b61.sibforms.com/serve/MUIFAD50yOvyKbcx_MjJcI3nyzFSpEVM7g0SOZF74KH7_-wrWLIz8Ijjn-7djqfC5jonIeyMN3FNre__1fnPyO5JpfvdxeNjRRt2yT10mU-QnF4ryun6r-pSYMwb5Tb40FFu3WhyVoVFDWlA8Xy08e0xzYSz8DJVrW8bbUpIeKctAJDm9jN8HDhQY_T6XhMU6HmSsll6oxHRoGEn"
+            src="https://b6623b61.sibforms.com/serve/MUIFANF-_pKOZ7tDX-g2lJk58enUcPvwcLvnrQmvb5TX3aq3dO2YiIT58pdGezK4I6o5QDoLQWYnXAnOeaLd_6qqZBXoxVzkyFwnN5iZ5PER4YOdzIDdGGRcFc5724QuKlhCrAwSwbehOWi2wdhzaanCmNx7N-PwjvVBQZS8eQT1cyTyMLNqB_EtOAUYTDTq8QewC9zWD7N8SLGd"
             frameBorder="0"
             scrolling="auto"
             allowFullScreen
