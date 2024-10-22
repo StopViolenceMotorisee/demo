@@ -42,7 +42,7 @@ export function AppForm(props) {
               <div id="sib-container">
                 <div id="sib-form">
                   <div style={{ padding: "8px 0" }}>
-                    <div class="sib-form-block title">
+                    <div className="sib-form-block title">
                       <p>
                         {props.en
                           ? "Sharing your experience"
@@ -51,10 +51,10 @@ export function AppForm(props) {
                     </div>
                   </div>
                   <div>
-                    <div class="sib-input sib-form-block">
-                      <div class="form__entry entry_block">
-                        <div class="form__label-row">
-                          <label class="entry__label" for="temoignage">
+                    <div className="sib-input sib-form-block">
+                      <div className="form__entry entry_block">
+                        <div className="form__label-row">
+                          <label className="entry__label" htmlFor="temoignage">
                             <span>
                               {props.en
                                 ? "Experience (mandatory)"
@@ -62,9 +62,9 @@ export function AppForm(props) {
                               <span style={{ color: "#ff4949" }}>*</span>
                             </span>
                           </label>
-                          <div class="entry__field">
+                          <div className="entry__field">
                             <textarea
-                              class="input"
+                              className="input"
                               type="text"
                               id="temoignage"
                               name="temoignage"
@@ -79,15 +79,15 @@ export function AppForm(props) {
                     </div>
                   </div>
                   <div>
-                    <div class="sib-input sib-form-block">
-                      <div class="form__entry entry_block">
-                        <div class="form__label-row">
-                          <label class="entry__label" for="lieu">
+                    <div className="sib-input sib-form-block">
+                      <div className="form__entry entry_block">
+                        <div className="form__label-row">
+                          <label className="entry__label" htmlFor="lieu">
                             {props.en ? "Location" : "Lieu"}
                           </label>
-                          <div class="entry__field">
+                          <div className="entry__field">
                             <input
-                              class="input"
+                              className="input"
                               type="text"
                               id="lieu"
                               name="lieu"
@@ -102,15 +102,15 @@ export function AppForm(props) {
                     </div>
                   </div>
                   <div>
-                    <div class="sib-input sib-form-block">
-                      <div class="form__entry entry_block">
-                        <div class="form__label-row">
-                          <label class="entry__label" for="nom">
+                    <div className="sib-input sib-form-block">
+                      <div className="form__entry entry_block">
+                        <div className="form__label-row">
+                          <label className="entry__label" htmlFor="nom">
                             {props.en ? "Name" : "Nom"}
                           </label>
-                          <div class="entry__field">
+                          <div className="entry__field">
                             <input
-                              class="input"
+                              className="input"
                               type="text"
                               id="nom"
                               name="nom"
@@ -126,15 +126,15 @@ export function AppForm(props) {
                   </div>
 
                   <div>
-                    <div class="sib-input sib-form-block">
-                      <div class="form__entry entry_block">
-                        <div class="form__label-row">
-                          <label class="entry__label" for="email">
+                    <div className="sib-input sib-form-block">
+                      <div className="form__entry entry_block">
+                        <div className="form__label-row">
+                          <label className="entry__label" htmlFor="email">
                             {props.en ? "Email address" : "Adresse email"}
                           </label>
-                          <div class="entry__field">
+                          <div className="entry__field">
                             <input
-                              class="input"
+                              className="input"
                               type="text"
                               id="email"
                               name="email"
@@ -146,7 +146,7 @@ export function AppForm(props) {
                           </div>
                         </div>
                       </div>
-                      <label class="entry__specification">
+                      <label className="entry__specification">
                         {props.en ? (
                           <>
                             This email address won’t be shared. We may use it to
@@ -163,13 +163,11 @@ export function AppForm(props) {
                   </div>
 
                   <div>
-                    <div class="sib-form-block">
+                    <div className="sib-form-block">
                       <button
-                        class="sib-form-block__button sib-form-block__button-with-loader"
+                        className="sib-form-block__button sib-form-block__button-with-loader"
                         disabled={sending}
                         onClick={() => publish()}
-                        stylex="
-                  "
                         form="sib-form"
                         type="submit"
                       >
@@ -184,10 +182,12 @@ export function AppForm(props) {
         </>
       ) : (
         <div>
-          <div class="notification">Nous avons bien reçu votre témoignage.</div>
-          <div class="section field is-grouped">
-            <div class="control">
-              <button class="button" onClick={() => setDone(!done)}>
+          <div className="notification">
+            Nous avons bien reçu votre témoignage.
+          </div>
+          <div className="section field is-grouped">
+            <div className="control">
+              <button className="button" onClick={() => setDone(!done)}>
                 Faire un nouveau témoignage
               </button>
             </div>
