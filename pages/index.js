@@ -7,6 +7,13 @@ import { AppHeader } from "@/components/header.js";
 import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
 
+import { LogoFUB } from "@/components/images/fub.js";
+import { LogoFFV } from "@/components/images/ffv.js";
+import { LogoFVM } from "@/components/images/fvm.js";
+import { LogoLHC } from "@/components/images/lhc.js";
+import { LogoRAC } from "@/components/images/rac.js";
+import { LogoWimoov } from "@/components/images/wimoov.js";
+
 export default function Home() {
   return (
     <>
@@ -146,6 +153,20 @@ risees-contre-banalisation-partagez-vos-temoignages"
           <div id="temoignez">
             <h2 className="is-size-4">Votre témoignage</h2>
             <AppForm />
+          </div>
+
+          <div>
+            <h2 className="is-size-4">Plateforme à l'initiative de la FUB</h2>
+            <LogoFUB />
+          </div>
+
+          <div>
+            <h2 className="is-size-4">En partenariat avec</h2>
+            <LogoFFV />
+            <LogoFVM />
+            <LogoLHC />
+            <LogoRAC />
+            <LogoWimoov />
           </div>
         </main>
         <AppFooter />
