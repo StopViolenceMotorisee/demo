@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
+import { Langs } from "@/components/langs.js";
 import { AppHeader } from "@/components/header.js";
 import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
@@ -36,7 +37,7 @@ export default function Home() {
           >
             Je témoigne
           </Link>
-          <Link href="/">🇨🇵</Link>/<Link href="/english">🇬🇧</Link>
+          <Langs />
         </div>
         <main className={styles.main}>
           <h1 className="is-size-3">

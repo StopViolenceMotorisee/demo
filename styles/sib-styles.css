@@ -1559,3 +1559,23 @@ textarea.input {
   border-radius: 3px;
   border-width: 0px;
 }
+
+.sib-flag {
+  display: inline-block;
+  width: 32px;
+  min-width: 2rem;
+  height: 32px;
+  background: url("/flags.png") no-repeat;
+}
+
+.sib-flag.sib-flag-fr {
+  background-position: -333px -132px;
+  width: 30px;
+  height: 30px;
+}
+
+.sib-flag.sib-flag-gb {
+  background-position: -399px -132px;
+  width: 30px;
+  height: 30px;
+}
