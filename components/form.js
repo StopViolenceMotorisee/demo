@@ -2,7 +2,6 @@ import { useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
 export function AppForm(props) {
-  console.log(props);
   const [temoignage, setTemoignage] = useState("");
   const [lieu, setLieu] = useState("");
   const [nom, setNom] = useState("");
@@ -38,87 +37,148 @@ export function AppForm(props) {
     <>
       {!done ? (
         <>
-          <div class="field">
-            <label class="label">
-              {props.en ? "Experience" : "Témoignage"}*
-            </label>
-            <div class="control">
-              <textarea
-                class="textarea"
-                value={temoignage}
-                onChange={(e) => setTemoignage(e.target.value)}
-              ></textarea>
-            </div>
-            {error ? (
-              <p class="help is-danger">
-                {props.en ? (
-                  <>This field is mandatory</>
-                ) : (
-                  <>Ce champs ne peut pas être laissé vide.</>
-                )}
-              </p>
-            ) : (
-              <></>
-            )}
-          </div>
-          <div class="field">
-            <label class="label">{props.en ? "Location" : "Lieu"}</label>
-            <div class="control">
-              <input
-                class="input"
-                type="text"
-                value={lieu}
-                onChange={(e) => setLieu(e.target.value)}
-              />
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">{props.en ? "Name" : "Nom"}</label>
-            <div class="control">
-              <input
-                class="input"
-                type="text"
-                value={nom}
-                onChange={(e) => setNom(e.target.value)}
-              />
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">
-              {props.en ? "Email address" : "Adresse email"}
-            </label>
-            <div class="control">
-              <input
-                class="input"
-                type="text"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-            <p class="help">
-              {props.en ? (
-                <>
-                  This email address won’t be shared. We may use it to contact
-                  you.
-                </>
-              ) : (
-                <>
-                  Cette adresse email ne sera jamais publiée. Elle nous
-                  permettra de vous contacter si nécessaire.
-                </>
-              )}
-            </p>
-          </div>
+          <div className="sib-form">
+            <div id="sib-form-container">
+              <div id="sib-container">
+                <div id="sib-form">
+                  <div style={{ padding: "8px 0" }}>
+                    <div class="sib-form-block title">
+                      <p>
+                        {props.en
+                          ? "Sharing your experience"
+                          : "Votre témoignage"}
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row">
+                          <label class="entry__label" for="temoignage">
+                            <span>
+                              {props.en
+                                ? "Experience (mandatory)"
+                                : "Témoignage (obligatoire)"}
+                              <span style={{ color: "#ff4949" }}>*</span>
+                            </span>
+                          </label>
+                          <div class="entry__field">
+                            <textarea
+                              class="input"
+                              type="text"
+                              id="temoignage"
+                              name="temoignage"
+                              autoComplete="off"
+                              value={temoignage}
+                              rows="30"
+                              onChange={(e) => setTemoignage(e.target.value)}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row">
+                          <label class="entry__label" for="lieu">
+                            {props.en ? "Location" : "Lieu"}
+                          </label>
+                          <div class="entry__field">
+                            <input
+                              class="input"
+                              type="text"
+                              id="lieu"
+                              name="lieu"
+                              autoComplete="off"
+                              value={lieu}
+                              rows="30"
+                              onChange={(e) => setLieu(e.target.value)}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row">
+                          <label class="entry__label" for="nom">
+                            {props.en ? "Name" : "Nom"}
+                          </label>
+                          <div class="entry__field">
+                            <input
+                              class="input"
+                              type="text"
+                              id="nom"
+                              name="nom"
+                              autoComplete="off"
+                              value={nom}
+                              rows="30"
+                              onChange={(e) => setNom(e.target.value)}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-          <div class="section field is-grouped">
-            <div class="control">
-              <button
-                class="button"
-                disabled={sending}
-                onClick={() => publish()}
-              >
-                {props.en ? <>Send</> : <>Envoyer</>}
-              </button>
+                  <div>
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row">
+                          <label class="entry__label" for="email">
+                            {props.en ? "Email address" : "Adresse email"}
+                          </label>
+                          <div class="entry__field">
+                            <input
+                              class="input"
+                              type="text"
+                              id="email"
+                              name="email"
+                              autoComplete="off"
+                              value={email}
+                              rows="30"
+                              onChange={(e) => setEmail(e.target.value)}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <label class="entry__specification">
+                        {props.en ? (
+                          <>
+                            This email address won’t be shared. We may use it to
+                            contact you.
+                          </>
+                        ) : (
+                          <>
+                            Cette adresse email ne sera jamais publiée. Elle
+                            nous permettra de vous contacter si nécessaire.
+                          </>
+                        )}
+                      </label>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="sib-form-block">
+                      <button
+                        class="sib-form-block__button sib-form-block__button-with-loader"
+                        disabled={sending}
+                        onClick={() => publish()}
+                        stylex="
+                  "
+                        form="sib-form"
+                        type="submit"
+                      >
+                        {props.en ? <>I SHARE</> : <>JE PARTAGE</>}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </>

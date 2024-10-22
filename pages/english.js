@@ -142,13 +142,23 @@ export default function Home() {
             }}
           ></iframe>
 
-          <div id="temoignez">
-            <h2 className="is-size-4">Sharing your experience</h2>
+          <p id="temoignez">
+            To ensure that this violence is no longer seen as an isolated
+            incident that is often played down, we need your testimony! Your
+            experience is invaluable and can help change things.
+          </p>
+
+          <div>
             <AppForm en />
           </div>
 
           <div>
-            <h2 className="is-size-4">Initiated by FUB</h2>
+            <h2 className="is-size-4">
+              Initiated by{" "}
+              <a href="https://www.fub.fr/" target="_blank">
+                FUB
+              </a>
+            </h2>
             <LogoFUB />
           </div>
 

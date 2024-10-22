@@ -149,20 +149,24 @@ export default function Home() {
             }}
           ></iframe>
 
-          <p>
+          <p id="temoignez">
             Pour que ces violences ne soient plus considérées comme des
             incidents isolés et souvent minimisés,{" "}
             <strong>nous avons besoin de votre témoignage !</strong> Votre
             expérience est précieuse et peut contribuer à faire changer les
             choses.
           </p>
-          <div id="temoignez">
-            <h2 className="is-size-4">Votre témoignage</h2>
+          <div>
             <AppForm />
           </div>
 
           <div>
-            <h2 className="is-size-4">Plateforme à l’initiative de la FUB</h2>
+            <h2 className="is-size-4">
+              Plateforme à l’initiative de{" "}
+              <a href="https://www.fub.fr/" target="_blank">
+                la FUB
+              </a>
+            </h2>
             <LogoFUB />
           </div>
 
