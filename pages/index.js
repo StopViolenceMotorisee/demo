@@ -41,10 +41,7 @@ export default function Home() {
           >
             Je témoigne
           </Link>
-          <Link href="/">
-            <strong>FR</strong>
-          </Link>
-          /<Link href="/english">EN</Link>
+          <Link href="/">🇨🇵</Link>/<Link href="/english">🇬🇧</Link>
         </div>
         <main className={styles.main}>
           <h1 className="is-size-3">

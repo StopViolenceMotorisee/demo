@@ -41,10 +41,7 @@ export default function Home() {
           >
             I share my experience
           </Link>
-          <Link href="/">FR</Link>/
-          <Link href="/english">
-            <strong>EN</strong>
-          </Link>
+          <Link href="/">🇨🇵</Link>/<Link href="/english">🇬🇧</Link>
         </div>
         <main className={styles.main}>
           <h1 className="is-size-3">
