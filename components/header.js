@@ -8,7 +8,7 @@ export function AppHeader() {
       <Link href="/">
         <Image
           className={styles.logo}
-          src="/photo_pauavelo_bandeau.jpg"
+          src="/bandeau.jpg"
           alt="Photo d’une manifestation de soutien à Paul"
           width={2048}
           height={916}
