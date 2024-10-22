@@ -97,18 +97,6 @@ export default function Home() {
           </p>
 
           <p>
-            Fight the normalisation of road violence by{" "}
-            <a
-              target="_blank"
-              href="https://www.fub.fr/fub/actualites/stop-aux-violences-moto
-risees-contre-banalisation-partagez-vos-temoignages"
-            >
-              sharing your experiences
-            </a>
-            .
-          </p>
-
-          <p>
             <strong>Please sign and share!</strong>
           </p>
 

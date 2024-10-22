@@ -119,19 +119,6 @@ export default function Home() {
           </p>
 
           <p>
-            Pour partager nos expériences et sortir de la banalisation de la
-            violence motorisée, la FUB lance un{" "}
-            <a
-              target="_blank"
-              href="https://www.fub.fr/fub/actualites/stop-aux-violences-moto
-risees-contre-banalisation-partagez-vos-temoignages"
-            >
-              appel à témoignages
-            </a>
-            .
-          </p>
-
-          <p>
             <strong id="signez">Signez et partagez !</strong>
           </p>
 
