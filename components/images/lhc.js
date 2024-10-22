@@ -6,7 +6,7 @@ export function LogoLHC() {
       src="/partenaires/L'Heureux Cyclage.jpg"
       alt="Logo de L'Heureux Cyclage"
       width={591}
-      style={{ width: "200px" }}
+      style={{ height: "150px" }}
       height={591}
       priority
     />
