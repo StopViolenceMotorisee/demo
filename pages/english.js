@@ -50,7 +50,9 @@ export default function Home() {
           <h1 className="is-size-3">
             Stop road violence by signing the petition against its normalisation
           </h1>
-          <p>Petition adressed to the Prime Minister and his government</p>
+          <p>
+            <i>Petition adressed to the Prime Minister and his government</i>
+          </p>
           <p>
             On the 15th of October at 5:45 p.m. Paul Varry, 27 years old, was
             killed by an SUV driver on his commute home from work in central

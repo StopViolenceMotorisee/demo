@@ -32,7 +32,7 @@ export default function Home() {
             href="#signez"
             scroll={false}
           >
-            Je signe cet appel à signature
+            Je signe l’appel
           </Link>
           <Link
             className="button is-medium is-warning"
@@ -53,8 +53,10 @@ export default function Home() {
           </h1>
 
           <p>
-            Pétition adressée à Mr le Premier ministre et aux membres de son
-            gouvernement
+            <i>
+              Pétition adressée à M. le Premier ministre et aux membres de son
+              gouvernement
+            </i>
           </p>
 
           <p>
@@ -167,7 +169,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h2 className="is-size-4">En partenariat avec</h2>
+            <h2 className="is-size-4">Avec le soutien de</h2>
             <LogoFFV />
             <LogoFVM />
             <LogoLHC />
