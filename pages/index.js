@@ -28,7 +28,7 @@ export default function Home() {
           </Link>
         </div>
         <main className={styles.main}>
-          <h1 className="is-size-1">
+          <h1 className="is-size-3">
             Stop aux violences motorisées : contre la banalisation, signez la
             pétition
           </h1>
@@ -144,7 +144,7 @@ risees-contre-banalisation-partagez-vos-temoignages"
           ></iframe>
 
           <div id="temoignez">
-            <h2 className="is-size-2">Votre témoignage</h2>
+            <h2 className="is-size-4">Votre témoignage</h2>
             <AppForm />
           </div>
         </main>
