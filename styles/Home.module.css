@@ -36,6 +36,7 @@
 }
 
 .main ul {
+  list-style: unset;
   list-style-position: inside;
   line-height: 20px;
 }

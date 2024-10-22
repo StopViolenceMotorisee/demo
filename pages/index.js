@@ -4,7 +4,6 @@ import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
 import { AppHeader } from "@/components/header.js";
-import { SIBButton } from "@/components/sibbutton.js";
 import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
 
@@ -21,7 +20,9 @@ export default function Home() {
 
       <div className={`${styles.page}`}>
         <div className="buttons">
-          <SIBButton />
+          <Link className="button is-large" href="#signez" scroll={false}>
+            Je veux signer l’appel
+          </Link>
           <Link className="button is-large" href="#temoignez" scroll={false}>
             Je veux témoigner
           </Link>
@@ -126,10 +127,6 @@ risees-contre-banalisation-partagez-vos-temoignages"
           <p>
             <strong id="signez">Signez et partagez !</strong>
           </p>
-
-          <div className="buttons">
-            <SIBButton />
-          </div>
 
           <iframe
             width="600"
