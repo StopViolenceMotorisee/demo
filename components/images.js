@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { LogoFFC } from "@/components/images/ffc.js";
 import { LogoFFV } from "@/components/images/ffv.js";
 import { LogoFVM } from "@/components/images/fvm.js";
 import { LogoLHC } from "@/components/images/lhc.js";
@@ -15,6 +16,7 @@ export function Images() {
       <LogoMobin />
       <LogoRAC />
       <LogoWimoov />
+      <LogoFFC />
     </div>
   );
 }
