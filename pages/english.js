@@ -28,14 +28,14 @@ export default function Home() {
             href="#signez"
             scroll={false}
           >
-            I sign this call
+            Sign the call
           </Link>
           <Link
             className="button is-medium is-warning"
             href="#temoignez"
             scroll={false}
           >
-            I share my experience
+            Share your experience
           </Link>
           <Langs />
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
           </h1>
           <p>
             <i>
-              Petition for the attention of the Prime Minister and his
+              Petition for the attention of the Prime Minister of France and his
               government
             </i>
           </p>
@@ -76,7 +76,7 @@ export default function Home() {
           </p>
           <p>
             The French Bike User’s Federation (FUB) is calling the French
-            government to fix a clear objective:{" "}
+            government to set a clear objective:{" "}
             <strong>zero road deaths and severe injuries</strong>.
           </p>
 
@@ -104,7 +104,7 @@ export default function Home() {
               </li>
               <li>
                 <strong>Ensuring these measures are monitored closely</strong>{" "}
-                by the government so these those pledges become reality.
+                by the government so these pledges become reality.
               </li>
             </ul>
           </div>
@@ -131,7 +131,7 @@ export default function Home() {
           <iframe
             width="600"
             height="845"
-            src="https://b6623b61.sibforms.com/serve/MUIFAJHukCwWSsqJ-jz0462-SvXNtonnyOQOj5H1DmJqTwpjKLvq3ZLmDQxeZ3aFrTZw3why3vEMKHw5zrO-utpcY87rdiQkZzKv_pRckqwzVwlSVbwPrXE-tSGxUEIJgDpiw7a0VzgXDMD0dmdnmpJ7DwXmV1sGDd0KZTMyLDvkzc4e6vEFPybAyT-J5cSoLOWXQi09k0n_tYSU"
+            src="https://b6623b61.sibforms.com/serve/MUIFANehRqX6kCeOQzpllxIU1VgiSrvGq1d3_6xMv8crRUctX0pyzwqJ9TnQD28mNDHg_KUk6Euj7HYnG87TOr9BLuhwkM8ulBjx1aYndvbP7HdFNv8LlpiiLSeBKHG_Ezt9-m9SHHuH0JQOHNSdXOL05EY6LvKwPpXtaR2016la7_Ices8O5UGS8FuyNePSUV-vbKMUFZcuGmck"
             frameBorder="0"
             scrolling="auto"
             allowFullScreen
@@ -144,9 +144,9 @@ export default function Home() {
           ></iframe>
 
           <p id="temoignez">
-            To ensure that this violence is no longer seen as an isolated
-            incident that is often played down, we need your testimony! Your
-            experience is invaluable and can help change things.
+            To encourage more people to come forward and highlight how frequent
+            and played down this violence is, we need to hear from you! Your
+            experience is invaluable and can help bring about real change.
           </p>
 
           <div>

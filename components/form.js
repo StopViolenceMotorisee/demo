@@ -171,7 +171,11 @@ export function AppForm(props) {
                         form="sib-form"
                         type="submit"
                       >
-                        {props.en ? <>I SHARE</> : <>JE PARTAGE</>}
+                        {props.en ? (
+                          <>SHARE YOUR EXPERIENCE</>
+                        ) : (
+                          <>JE PARTAGE</>
+                        )}
                       </button>
                     </div>
                   </div>
