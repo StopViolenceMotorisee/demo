@@ -53,6 +53,11 @@ export function Images() {
         name="de Amis de la Terre"
         style={{ width: "140px" }}
       />
+      <LogoBase
+        file="VeloQuebec.jpg"
+        name="de Vélo Québec"
+        style={{ width: "150px" }}
+      />
     </div>
   );
 }
