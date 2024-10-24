@@ -14,39 +14,45 @@ export function Images() {
   return (
     <div className="images">
       <LogoFFV />
-      <LogoFVM />
-      <LogoLHC />
-      <LogoMobin />
-      <LogoRAC />
-      <LogoWimoov />
       <LogoFFC />
-      <LogoBAV />
-      <LogoECF />
-      <LogoBase
-        file="FaV.png"
-        name="de Femmes à vélo"
-        style={{ width: "180px" }}
-      />
-      <LogoBase file="MCF.png" name="de MCF" style={{ height: "150px" }} />
       <LogoBase
         file="RdA.png"
         name="de Route de l'Avenir"
         style={{ width: "150px" }}
       />
-      <LogoBase file="apic.png" name="de APIC" style={{ height: "180px" }} />
-      <LogoBase file="CVTCM.png" name="de CVTCM" style={{ width: "160px" }} />
+      <LogoBase
+        file="FaV.png"
+        name="de Femmes à vélo"
+        style={{ width: "180px" }}
+      />
+      <LogoECF />
+      <LogoBase file="MCF.png" name="de MCF" style={{ height: "150px" }} />
+      <LogoLHC />
+      <LogoBase file="MVUV.png" name="de MVUV" style={{ width: "140px" }} />
       <LogoBase
         file="Fietsersbond.png"
         name="de Fietsersbond"
         style={{ width: "150px" }}
       />
-      <LogoBase file="FNE.png" name="de FNE" style={{ width: "150px" }} />
+      <LogoBAV />
       <LogoBase
         file="VeT.png"
         name="de vélo et territoires"
         style={{ width: "150px" }}
       />
-      <LogoBase file="MVUV.png" name="de MVUV" style={{ width: "140px" }} />
+      <LogoBase file="CVTCM.png" name="de CVTCM" style={{ width: "160px" }} />
+      <LogoBase file="apic.png" name="de APIC" style={{ height: "180px" }} />
+      <LogoRAC />
+      <LogoFVM />
+
+      <LogoBase file="FNE.png" name="de FNE" style={{ width: "150px" }} />
+      <LogoWimoov />
+      <LogoMobin />
+      <LogoBase
+        file="ATF.png"
+        name="de Amis de la Terre"
+        style={{ width: "140px" }}
+      />
     </div>
   );
 }
