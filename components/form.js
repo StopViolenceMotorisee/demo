@@ -83,7 +83,7 @@ export function AppForm(props) {
                       <div className="form__entry entry_block">
                         <div className="form__label-row">
                           <label className="entry__label" htmlFor="lieu">
-                            {props.en ? "Location" : "Lieu"}
+                            {props.en ? "City" : "Commune"}
                           </label>
                           <div className="entry__field">
                             <input
