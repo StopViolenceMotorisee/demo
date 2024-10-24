@@ -22,6 +22,17 @@ export function Images() {
       <LogoFFC />
       <LogoBAV />
       <LogoECF />
+      <LogoBase
+        file="FaV.png"
+        name="de Femmes à vélo"
+        style={{ width: "180px" }}
+      />
+      <LogoBase file="MCF.png" name="de MCF" style={{ height: "150px" }} />
+      <LogoBase
+        file="RdA.png"
+        name="de Route de l'Avenir"
+        style={{ width: "150px" }}
+      />
       <LogoBase file="apic.png" name="de APIC" style={{ height: "180px" }} />
       <LogoBase file="CVTCM.png" name="de CVTCM" style={{ width: "160px" }} />
       <LogoBase
