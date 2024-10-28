@@ -25,6 +25,8 @@ jobs:
         env:
           NEXT_PUBLIC_SUPABASE_URL: https://phvcdiksdhxsfodukbyy.supabase.co
           NEXT_PUBLIC_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBodmNkaWtzZGh4c2ZvZHVrYnl5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjk1MDkzNjcsImV4cCI6MjA0NTA4NTM2N30.1e6eGCmjW6fvLcD8GgWeMHLatVudqJGGMJnumUe9eWs
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+
       - name: Export build
         uses: actions/upload-pages-artifact@v1
         with:
