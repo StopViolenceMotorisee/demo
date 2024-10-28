@@ -9,8 +9,18 @@ import { AppForm } from "@/components/form.js";
 import { AppFooter } from "@/components/footer.js";
 import { Images } from "@/components/images.js";
 import { LogoFUB } from "@/components/images/fub.js";
+import { getCount } from "@/lib/get-count.js";
 
-export default function Home() {
+export async function getStaticProps() {
+  const count = await getCount();
+  return {
+    props: {
+      count,
+    },
+  };
+}
+
+export default function Home({ count }) {
   return (
     <>
       <Head>
@@ -40,6 +50,7 @@ export default function Home() {
           <Langs />
         </div>
         <main className={styles.main}>
+          <p className="is-size-3">Déjà {count} signataires !</p>
           <h1 className="is-size-3">
             Agir contre les violences motorisées : signez l’appel
           </h1>
