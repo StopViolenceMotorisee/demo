@@ -58,6 +58,11 @@ export function Images() {
         name="de Vélo Québec"
         style={{ width: "150px" }}
       />
+      <LogoBase
+        file="CTE.jpg"
+        name="de Cyclo Transeurope"
+        style={{ width: "170px" }}
+      />
     </div>
   );
 }
