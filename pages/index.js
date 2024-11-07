@@ -21,6 +21,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ count }) {
+  const countValue = count.toLocaleString();
   return (
     <>
       <Head>
@@ -50,7 +51,7 @@ export default function Home({ count }) {
           <Langs />
         </div>
         <main className={styles.main}>
-          <p className="is-size-3">Déjà {count} signataires !</p>
+          <p className="is-size-3">Déjà {countValue} signataires !</p>
           <h1 className="is-size-3">
             Agir contre les violences motorisées : signez l’appel
           </h1>
