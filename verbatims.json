@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "fields": {
+        "Long": "J'ai été renversé à vélo par une voiture et je suis tombé. Le conducteur est sorti de sa voiture, et comme je me relevais, je lui ai dit de se garer pour le constat. Il est remonté dans sa voiture et, délit de fuite.",
+        "Court": "Renversé à vélo, je demande au conducteur de se garer pour le constat. Il remonte dans sa voiture et prend la fuite.",
+        "Contexte": "B., Mâcon (71)"
+      }
+    },
+    {
+      "id": 2,
+      "fields": {
+        "Long": "Je suis kiné à domicile, je me déplace seulement à vélo. Quotidiennement, je me fais frôler par des voitures qui ne respectent ni la distance pour dépasser, ni les limitations de vitesse dans les villages. Je crains toujours le pire lorsque j’emprunte mon vélo chaque matin.",
+        "Court": "Kiné à domicile, je me déplace à vélo. Chaque jour, des voitures me frôlent sans respecter les distances ni les limitations de vitesse. Je crains toujours le pire.",
+        "Contexte": "M., Uriage les Bains (38)"
+      }
+    },
+    {
+      "id": 3,
+      "fields": {
+        "Long": "Une camionnette manque de renverser intentionnellement un vélo dans un virage. Témoin de la scène, je toque sur sa portière pour signaler son danger. Le conducteur sort et m'agresse physiquement en me portant un coup au visage et tape dans mon vélo tout en m'insultant",
+        "Court": "Une camionnette manque de renverser un vélo dans un virage. Témoin de la scène, je signale le danger au conducteur : il sort, m'agresse, me frappe au visage et s'en prend à mon vélo en m'insultant.",
+        "Contexte": "M., Paris (75)"
+      }
+    },
+    {
+      "id": 4,
+      "fields": {
+        "Long": "Cet été, je rentrais d’une sortie sur une bande cyclable. Comme un véhicule garé m’empêchait de continuer sur la piste, je suis allé sur la route. Le conducteur d’une camionnette n’a pas apprécié et m’a serré volontairement contre le trottoir. Je suis tombé lourdement au sol, et malgré mon casque, j’ai perdu connaissance avec une hémorragie cérébrale. Le chauffard a pris la fuite",
+        "Court": "Bloqué par un véhicule sur la bande cyclable, je passe sur la route. Le conducteur d’une camionnette me serre volontairement contre le trottoir : je tombe, perds connaissance, et subis une hémorragie cérébrale. Le chauffard prend la fuite.",
+        "Contexte": "F. Toulouse (31)"
+      }
+    },
+    {
+      "id": 5,
+      "fields": {
+        "Long": "Toutes les cyclistes femmes pourront sans doute témoigner d'agressions verbales sexistes (des hommes en voiture mais aussi des hommes piétons) : remarques sur nos tenues, se pencher pour voir sous nos jupes, j'en passe...",
+        "Court": "Toutes les cyclistes femmes pourront témoigner d’agressions verbales sexistes : remarques sur nos tenues, hommes qui se penchent pour voir sous nos jupes, et bien d'autres…",
+        "Contexte": "B. Paris (75)"
+      }
+    },
+    {
+      "id": 6,
+      "fields": {
+        "Long": "Il y a quelques mois, j'ai été coursé pendant 10 minutes par un furieux à qui j’avais demandé de bouger sa voiture garée sur la piste. J'ai pu lui échapper grâce, et c'est paradoxal, à une avenue embouteillée.",
+        "Court": "Poursuivi 10 minutes par un automobiliste furieux à qui j’avais demandé de dégager la piste. Je n’ai échappé qu’en me faufilant dans un embouteillage.",
+        "Contexte": "J., Le Mans (72)"
+      }
+    },
+    {
+      "id": 7,
+      "fields": {
+        "Long": "Un soir, je descendais une départementale à bonne vitesse et il était impossible de me doubler durant la première moitié du fait de séparateurs centraux. A mi-descente, un SUV m’a doublé à vive allure et s’est immédiatement, directement et sciemment rabattu sur moi. J’ai évité par miracle la chute qui à cette vitesse et dans ce trafic aurait très certainement été fatale. Pour la première fois de ma vie, j’ai déposé une plainte, pour tentative de meurtre, au commissariat de police où j’ai été très bien reçue.",
+        "Court": "En descendant une départementale, un SUV m’a doublé à vive allure et s'est sciemment rabattu sur moi. J’ai évité la chute de justesse, qui aurait pu être fatale. J'ai porté plainte pour tentative de meurtre.",
+        "Contexte": "H., Louveciennes (78)"
+      }
+    }
+  ]
+}

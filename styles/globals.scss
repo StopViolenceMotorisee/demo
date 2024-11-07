@@ -60,3 +60,18 @@ img {
   justify-content: center;
   max-width: 1000px;
 }
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  overflow: scroll;
+  padding: 0 20vw 30px 20vw;
+  width: 100vw;
+  gap: 3em;
+}
+
+.cards .card {
+  width: 30em;
+  max-width: 80vw;
+  flex-shrink: 0;
+}

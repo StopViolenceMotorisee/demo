@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 
+import { Cards } from "@/components/cards.js";
 import { Langs } from "@/components/langs.js";
 import { AppHeader } from "@/components/header.js";
 import { AppForm } from "@/components/form.js";
@@ -31,8 +32,8 @@ export default function Home({ count }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppHeader />
-
       <div className={`${styles.page}`}>
+        <Cards />
         <div className="buttons">
           <Link
             className="button is-medium is-warning"
