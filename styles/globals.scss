@@ -84,7 +84,8 @@ img {
 }
 
 .card-buttons {
-  gap: 19em;
+  padding-top: 10px;
+  gap: min(19em, 60vw);
   display: flex;
   justify-content: center;
 }
